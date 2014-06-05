@@ -45,7 +45,7 @@ class MenuItemTestCase( TestCase ):
 		"""
 		self.m_model.save()
 
-		self.assertEqual( self.m_model.children(), 0 )
+		self.assertEqual( self.m_model.children.count(), 0 )
 
 		child_item = self.m_model.children.create(
 			title = "About",
