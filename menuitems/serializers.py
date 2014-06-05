@@ -7,5 +7,10 @@ class MenuItemSerializer( serializers.ModelSerializer ):
 	"""
 	class Meta:
 		model = MenuItem
-		fields = ( "id", "title", "url", "position", )
+		fields = ( 
+			"id",
+			"title",
+			"url",
+			"parent",
+		)
 	

@@ -9,6 +9,4 @@ class MenuItemViewSet( viewsets.ReadOnlyModelViewSet ):
 	"""
 	queryset = MenuItem.objects.all()
 	serializer_class = MenuItemSerializer
-	parser_classes = ( JSONParser, )
-
 
