@@ -1,3 +1,8 @@
 from django.contrib import admin
+from menuitems.models import MenuItem
+from django_mptt_admin.admin import DjangoMpttAdmin
 
-# Register your models here.
+class MenuItemAdmin( DjangoMpttAdmin ):
+	fields = ( "title", "url", )
+
+admin.site.register( MenuItem, MenuItemAdmin )

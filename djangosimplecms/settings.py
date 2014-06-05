@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     "south",
     "menuitems",
     "mptt",
+    "django_mptt_admin",
 )
 
 MIDDLEWARE_CLASSES = (
