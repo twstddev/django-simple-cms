@@ -7,10 +7,7 @@ It's mainly used for single page applications/websites but can be edited for Rai
 Provides:
 * Pages
 * Menu
-* Main controllers that provide public JSON API for pages and menu
-* jbuilder( JSON ) templates
+* JSON API for pages and menu
 * slug support
-* custom meta fields
-* nested meta fields
 * file browser
 * WYSIWYG editor
