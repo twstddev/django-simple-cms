@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     "south",
     "menuitems",
+    "mptt",
 )
 
 MIDDLEWARE_CLASSES = (
