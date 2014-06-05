@@ -16,5 +16,8 @@ class Page( models.Model ):
 	)
 	body = models.TextField()
 
+	def __unicode__( self ):
+		return self.title
+
 	class Meta:
 		ordering = [ "title" ]
