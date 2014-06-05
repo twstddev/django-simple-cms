@@ -1,6 +1,5 @@
 from menuitems.models import MenuItem
 from rest_framework import viewsets
-from rest_framework.parsers import JSONParser
 from menuitems.serializers import MenuItemSerializer
 
 class MenuItemViewSet( viewsets.ReadOnlyModelViewSet ):
